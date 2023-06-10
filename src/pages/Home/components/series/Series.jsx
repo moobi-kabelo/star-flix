@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Movie = ({ image, title, duration, genre, rating }) => {
+const Series = ({ image, title, duration, genre, rating }) => {
   return (
     <li>
       <div className="movie-card">
@@ -41,4 +41,4 @@ const Movie = ({ image, title, duration, genre, rating }) => {
   );
 };
 
-export default Movie;
+export default Series;
